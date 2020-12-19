@@ -182,7 +182,7 @@ body {
   background: var(--body-bg-color);
   color: var(--text-color);
   font-family: Lato, 'PingFang SC', 'Microsoft YaHei', sans-serif;
-  font-size: 0.8125em;
+  font-size: 0.875em;
   line-height: 2;
   min-height: 100%;
   position: relative;
@@ -1502,7 +1502,7 @@ pre code {
   text-overflow: ellipsis;
 }
 .post-toc .nav .nav-child {
-  display: block;
+  display: none;
 }
 .post-toc .nav .active > .nav-child {
   display: block;
@@ -1851,7 +1851,7 @@ pre code {
 }
 @media (min-width: 1200px) {
   .post-body {
-    font-size: 1.125em;
+    font-size: 0.875em;
   }
 }
 @media (min-width: 992px) {
@@ -2585,11 +2585,11 @@ ul.breadcrumb li:last-child {
 }
 @media (min-width: 992px) {
   .sidebar-active {
-    margin-left: 320px;
+    margin-left: 240px;
   }
 }
 .sidebar {
-  left: -320px;
+  left: -240px;
 }
 .sidebar-active .sidebar {
   left: 0;
@@ -2601,7 +2601,7 @@ ul.breadcrumb li:last-child {
   position: fixed;
   top: 0;
   transition: all 0.2s ease-out;
-  width: 320px;
+  width: 240px;
   z-index: 1200;
 }
 .sidebar a {
@@ -2623,7 +2623,7 @@ ul.breadcrumb li:last-child {
   vertical-align: middle;
 }
 .links-of-author a::before {
-  background: #240bd2;
+  background: #e41a46;
   display: inline-block;
   margin-right: 3px;
   transform: translateY(-2px);
